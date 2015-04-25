@@ -1,2 +1,2 @@
 # sbt-binks
-A sbt pluging for creating a JAR of JARs.
+A sbt plugin for creating a JAR of JARs.

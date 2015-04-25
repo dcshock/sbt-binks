@@ -1,0 +1,13 @@
+import com.github.zdavep.SbtBinks._
+
+name := "binks-example"
+version := "0.1"
+organization := "com.github.zdavep"
+scalaVersion := "2.11.6"
+
+libraryDependencies ++= Seq(
+  "commons-lang" % "commons-lang" % "2.6"
+)
+
+binksSettings
+
