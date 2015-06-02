@@ -1,8 +1,8 @@
-import com.github.zdavep.SbtBinks._
+import com.github.dcshock.SbtBinks._
 
 name := "binks-example"
 version := "0.1"
-organization := "com.github.zdavep"
+organization := "com.github.dcshock"
 scalaVersion := "2.11.6"
 
 libraryDependencies ++= Seq(

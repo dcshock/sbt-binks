@@ -6,8 +6,8 @@ object build extends Build {
     id = "sbt-binks",
     base = file("."),
     settings = Defaults.defaultSettings ++ ScriptedPlugin.scriptedSettings ++ Seq[Project.Setting[_]](
-      organization := "com.github.zdavep",
-      version := "0.1.0",
+      organization := "com.github.dcshock",
+      version := "0.1",
       sbtPlugin := true,
       scalacOptions in Compile ++= Seq("-deprecation"),
       publishTo := Some(Resolver.url("sbt-plugin-releases", new URL("http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/"))(Resolver.ivyStylePatterns)),

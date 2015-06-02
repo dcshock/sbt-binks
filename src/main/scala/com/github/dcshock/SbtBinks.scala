@@ -1,4 +1,4 @@
-package com.github.zdavep
+package com.github.dcshock
 
 import sbt._
 import Keys._
