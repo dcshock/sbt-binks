@@ -11,7 +11,8 @@ object build extends Build {
       sbtPlugin := true,
       scalacOptions in Compile ++= Seq("-deprecation"),
       publishTo := Some(Resolver.url("sbt-plugin-releases", new URL("http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/"))(Resolver.ivyStylePatterns)),
-      publishMavenStyle := false
+      publishMavenStyle := false,
+      scalaVersion := "2.10.6"
     )
   )
 }
